@@ -1,0 +1,12 @@
+#!/bin/bash
+ 
+ mkdir -p /opt/18092023-e/ /sobjanina/
+ touch /opt/18092023_e/sobjanina/testscript.sh
+ echo "Your name is: " $USER
+ echo "Your working directory is: " $PWD
+ echo "Number of users: "
+ ps -ef | grep ssh
+ echo "done" 
+ 
+ 
+ 
